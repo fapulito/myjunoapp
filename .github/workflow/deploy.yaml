@@ -1,5 +1,4 @@
 name: Deploy to Juno
-uses: junobuild/juno-action@v0.0.17
 
 on:
   push:
