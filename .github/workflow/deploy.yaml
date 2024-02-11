@@ -27,3 +27,7 @@ jobs:
           args: deploy
         env:
           JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
+
+              - name: GitHub Action for Juno
+                uses: junobuild/juno-action@v0.0.17
+            
