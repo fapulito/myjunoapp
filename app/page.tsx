@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <>
-      <button onClick={insert}>Test Dapp - insert document</button>
+      <button onClick={insert}>Test Dapp - insert document </button>
       {record !== undefined && <span>Key: {record.key}</span>}
     </>
   );
